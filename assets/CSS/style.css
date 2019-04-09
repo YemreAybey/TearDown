@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.main-container {
+  width:100%;
+}
+.main-header {
+  width:100%
+  display: grid;
+  grid-template-columns: 22% 12.5% 12.5% 12.5% 12.5% 12.5% 15.5%;
+  grid-template-rows: 5%;
+}
