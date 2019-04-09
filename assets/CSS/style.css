@@ -1,14 +1,13 @@
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 .body {
-  height: 4000px;
   font-size: 100%;
 }
 .main-container {
   width:100%;
   height: 4000px;
+  font-family: 'Lato', 'Oswald', 'Ubuntu', 'Roboto';
 }
 .grid-header {
   background-color: #8c8c8c;
@@ -22,11 +21,30 @@
   text-align: center;
 }
 .header-grid-item p {
-  display: block;
-  margin: 30px auto;
+  text-align: center;
+  height: 100%;
+  display: inline-grid;
+  align-content: center;
   color:#fff;
   font-size: 1.5em;
   font-weight: bold;
+}
+.latest-articles-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 45%;
+  text-align: center;
+
+}
+.latest-articles-title span {
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  background-color: red;
+  padding: .3em .4em ;
+  line-height: 1.5em;
 }
 
 .latest-articles-grid-container {
