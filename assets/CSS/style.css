@@ -5,9 +5,17 @@
 .main-container {
   width:100%;
 }
-.main-header {
-  width:100%
+.grid-header {
+  background-color: #8c8c8c;
+  width:100%;
   display: grid;
-  grid-template-columns: 22% 12.5% 12.5% 12.5% 12.5% 12.5% 15.5%;
+  grid-template-columns: 20% 13% 13% 13% 13% 13% auto;
   grid-template-rows: 5%;
+}
+.latest-articles-grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  align-items: stretch;
 }
