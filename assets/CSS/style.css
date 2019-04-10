@@ -75,27 +75,28 @@
   grid-template-rows: 33% 33% 33%;
 }
 .articles-grid-item {
-  height: inherit;
+  background-color: #cccccc;
+  margin: 15px 10px;
   text-align: center;
   font-size: 1.5em;
   padding: 5vh 2vh;
 }
 .ad-grid-item2 {
-    background-color: #cccccc;
-    border: 1px solid #cccccc;
+    background-color: #999999;
+    border: 1px solid #999999;
     border-radius: 15px;
     margin: 5vh 2vh;
 }
 .ad-grid-item1{
-  height: 30%;
-  width: 80%;
+  height: 350px;
+  width: 350px;;
   display: inline-grid;
   align-content: center;
-  border: 2px solid blue;
+  border: 2px solid #737373;
   border-radius: 8px;
   margin: 35% 10%;
   color: white;
-  background-color: #33ccff;
+  background-color: #737373;
   text-align: center;
   font-size: 1.5em;
   font-weight: bold;
@@ -170,4 +171,60 @@
   font-size: 1.2em;
   font-weight: bold;
   padding: 5%;
+}
+.featured-book {
+  margin-top: 50px;
+  height: 50vh;
+  width: 100%;
+  padding: 0 30% 0 5%;
+  background-color: #8c8c8c;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+.guides-grid-container {
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+  width: 90%;
+  margin: 5vh auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: left;
+  justify-content: center;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+.guides-grid-item {
+  height: inherit;
+  width: auto;
+  padding:25px 25px;
+  background-color: #a6a6a6;
+  border:1px solid white;
+}
+.newsletter {
+  height: 120vh;
+  width: 80%;
+  background-color: #8c8c8c;
+  border: 1px solid #8c8c8c;
+  border-radius: 15px;
+  margin: 10vh auto;
+  padding-top: 15vh;
+  text-align: center;
+  justify-content: center;
+  font-size: 3em;
+  color: #fff;
+}
+.footer {
+  height: 95vh;
+  width: 100%;
+  background-color: #8c8c8c;
+  margin: 10vh auto 0 auto;
+  text-align: center;
+  padding-top: 15vh;
+  justify-content: center;
+  font-size: 1.2em;
+  color: #fff;
 }
