@@ -6,6 +6,6 @@ This project was created by:
 using:
 - *HTML, HTML5*
 - *CSS3*   
-You can find the live version [here](https://raw.githack.com/YemreAybey/TearDown/development/index.html)
+You can find the live version [here](https://yemreaybey.github.io/TearDown/)
 
 **Have a Nice Day**
